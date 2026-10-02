@@ -1,0 +1,17 @@
+definition: Docker is a platform which helps in creating similar environment for running application in different machine or multiple machines in an isolated forrmat.
+  It actually creates a bundle of the application and its dependency and we cna run that smae application in a different environment
+
+  properties:
+  -----------
+  1. It create isolated environment which has no dependency on the parent machine OS
+  2. It is lightweight, takes very little space
+  3. We can run the same application in a different environment without having dependecny on the version of the apps in the environment
+  4. Follows a class and object principle having images as class which has the blueprint of the application and
+  container as objects which is getting created having the application dependency
+
+  Images and containers
+  ---------------------
+  Images: Image consists of the application blueprint example: when we create a ubuntu image it will create an ubuntu image separately
+  
+  Container: Container creates a total separate isolated environment having a definition and related filesystem where we can run and execute commands in an isolated environment
+  Example: if we run the ubuntu image and write any linux command it will show the proposed result as per the code

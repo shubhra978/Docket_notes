@@ -15,3 +15,20 @@ definition: Docker is a platform which helps in creating similar environment for
   
   Container: Container creates a total separate isolated environment having a definition and related filesystem where we can run and execute commands in an isolated environment
   Example: if we run the ubuntu image and write any linux command it will show the proposed result as per the code
+
+
+initial codes mostly used
+--------------------------
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  bake        Build from a file
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Authenticate to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
